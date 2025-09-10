@@ -1,0 +1,37 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .texto-naranja{
+            color: #84482D;
+
+        } 
+        .texto-centrado{
+            text-align: center;
+        }
+
+        p{
+            font-size: 18px;
+            line-height: 1.5em; /*em me lo hace responsive para distintos dispositivos */
+            color:  #089121;
+            background-color: black;
+        }
+        .caja{
+            display: flex;
+            justify-content: space-around;
+            border: 2px solid #BE6841;
+            padding: 20px;
+            margin: 20px 10px;
+        }
+        img{
+            height: 150px;
+            width: 150px;
+            margin: 10px;
+        }
+        .caja-texto{
+            display: flex;
+            justify-content: space-evenly;
+            border: transparent;
+            padding: 20px;
+        }
